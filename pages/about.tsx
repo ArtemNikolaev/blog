@@ -18,7 +18,7 @@ export const About = (): JSX.Element => {
             <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/artem-nikolaev-b194b078/'>
               <Image
                 alt={`Artem Nikolaev LinkedIn`}
-                src={`/images/linkedin.png`}
+                src={`/images/social/linkedin.png`}
                 width={50}
                 height={50}
                 priority
@@ -27,7 +27,7 @@ export const About = (): JSX.Element => {
             <a target='_blank' rel="noreferrer" href='https://t.me/ArtemNikolaev'>
               <Image
                 alt={`Artem Nikolaev Telegram`}
-                src={`/images/Telegram_logo.png`}
+                src={`/images/social/Telegram_logo.png`}
                 width={50}
                 height={50}
                 priority

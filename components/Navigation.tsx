@@ -17,7 +17,7 @@ const Navigation = (): JSX.Element => {
       <a target='_blank' rel="noreferrer" href='https://t.me/das_programm'>
         <Image
           alt={`Artem Nikolaev Telegram`}
-          src={`/images/Telegram_logo.png`}
+          src={`/images/social/Telegram_logo.png`}
           width={50}
           height={50}
           priority
