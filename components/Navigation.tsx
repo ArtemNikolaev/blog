@@ -14,7 +14,7 @@ const Navigation = (): JSX.Element => {
       <Link href="/about">
         <a className="text-gray-900 dark:text-white px-6 py-4">Обо мне</a>
       </Link>
-      <a target='_blank' href='https://t.me/das_programm'>
+      <a target='_blank' rel="noreferrer" href='https://t.me/das_programm'>
         <Image
           alt={`Artem Nikolaev Telegram`}
           src={`/images/Telegram_logo.png`}

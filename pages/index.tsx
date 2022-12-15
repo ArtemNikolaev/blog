@@ -1,7 +1,6 @@
 import { format, parseISO } from 'date-fns';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
 import React from 'react';
 import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';

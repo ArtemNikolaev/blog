@@ -15,7 +15,7 @@ export const About = (): JSX.Element => {
           <h2>Senior Web Developer</h2>
           <br/>
           <div className='flex flex-row justify-around'>
-            <a target='_blank' href='https://www.linkedin.com/in/artem-nikolaev-b194b078/'>
+            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/artem-nikolaev-b194b078/'>
               <Image
                 alt={`Artem Nikolaev LinkedIn`}
                 src={`/images/linkedin.png`}
@@ -24,7 +24,7 @@ export const About = (): JSX.Element => {
                 priority
               />
             </a>
-            <a target='_blank' href='https://t.me/ArtemNikolaev'>
+            <a target='_blank' rel="noreferrer" href='https://t.me/ArtemNikolaev'>
               <Image
                 alt={`Artem Nikolaev Telegram`}
                 src={`/images/Telegram_logo.png`}
