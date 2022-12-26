@@ -1,0 +1,40 @@
+---
+title: Функции Генераторы
+description: Подробно рассмотрим API для создания итераторов
+date: '2022-12-25'
+---
+<Image
+  alt={`Bridge`}
+  src={`/images/iterators/Iterators_main.png`}
+  width={500}
+  height={300}
+  priority
+/>
+
+> Итераторы итерируют <br/>Генераторы генерируют
+
+**функция Генератор всегда создаёт(генерирует) Итератор**
+
+Это самый важная точка для понимания. Потому что если вы знаете, что такое итератори, как он работает и для чего создан, то понимание генератора с его yield и останавливающимся исполнением не займет большого количества времени.
+
+```javascript
+function * mainSence() {
+    return 42;
+}
+
+const mainSenceIterator = mainSence();
+
+console.log(mainSenceIterator);
+
+console.log(mainSenceIterator.next());
+console.log(mainSenceIterator.next());
+console.log(mainSenceIterator.next());
+```
+
+Первое и главное семантические отличие - это знак `*` после ключевого слово `function`. Именно он дает понять интерпретатору, что мы работаем с функцией-генератором.
+
+
+
+
+
+
