@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import Link from 'next/link';
 
 export const About = (): JSX.Element => {
   return (
@@ -84,16 +85,16 @@ export const About = (): JSX.Element => {
       <div>
         <h2>Итераторы и Генераторы в JS</h2>
         <ul className='list-none'>
-          <li className='list-item'>
-            <a href='http://localhost:3000/posts/js-iterators'>
+          <li>
+            <Link href="/posts/js-iterators">
               Итераторы
-            </a>
+            </Link>
           </li>
-          {/*<li className='list-item'>
-            <a href=''>
+          <li>
+            <Link href="/posts/js-generators">
               Генераторы
-            </a>
-          </li>*/}
+            </Link>
+          </li>
         </ul>
       </div>
 
