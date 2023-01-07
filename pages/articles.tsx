@@ -17,6 +17,11 @@ export const About = (): JSX.Element => {
               Три столпа решения любой задачи
             </a>
           </li>
+          <li>
+            <Link href="/posts/js-equality">
+             Операторы = == ===
+            </Link>
+          </li>
         </ul>
       </div>
 
