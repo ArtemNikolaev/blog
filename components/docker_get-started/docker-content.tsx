@@ -4,12 +4,12 @@ import DockerGetStartedContentList from './docker-get-started-content-list';
 const DockerGetStartedContent = (): JSX.Element => {
   return (
     <div>
-      <h2>Начать работу с Docker </h2>
+      <h2>Как начать работу с Docker ([перевод](https://docs.docker.com/get-started/)</h2>
       <Image
         alt={`Bridge`}
         src={`/images/tr-docker-get-started/docker-logo.png`}
-        width={601}
-        height={431}
+        width={150}
+        height={108}
         priority
       />
       <DockerGetStartedContentList />

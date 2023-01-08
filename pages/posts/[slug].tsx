@@ -17,6 +17,7 @@ import Layout, { WEBSITE_HOST_URL } from '../../components/Layout';
 import { MetaProps } from '../../types/layout';
 import { PostType } from '../../types/post';
 import { postFilePaths, POSTS_PATH } from '../../utils/mdxUtils';
+import DockerGetStartedContentList from '../../components/docker_get-started/docker-get-started-content-list';
 
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
@@ -26,6 +27,7 @@ const components = {
   Head,
   Image,
   Link,
+  DockerGetStartedContentList
 };
 
 type PostPageProps = {
