@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Link from 'next/link';
+import DockerGetStartedContent from '../components/docker_get-started/docker-content';
 
-export const About = (): JSX.Element => {
+export const Articles = (): JSX.Element => {
   return (
     <Layout
       customMeta={{
@@ -103,8 +104,10 @@ export const About = (): JSX.Element => {
         </ul>
       </div>
 
+      <DockerGetStartedContent />
+
     </Layout>
   );
 };
 
-export default About;
+export default Articles;
